@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "post_id": 1,
+      "title": "Title",
+      "year": 2010,
+      "date": "xx YYY xxxx",
+      "content": {
+        "1": {
+          "content_title": "title",
+          "content_text": "ofabawfbioafawboawifbaiwoowifawwofia",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        },
+        "2": {
+          "content_title": "title2",
+          "content_text": "fwaoibwfabifwabfwiowb2",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        }
+      },
+      "tags": ["kotlin", "database", "bootstrap"]
+    },
+    {}
+  ]
+}
