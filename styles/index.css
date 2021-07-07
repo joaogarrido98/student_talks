@@ -57,7 +57,7 @@ main {
 .post-wrapper {
   display: block;
   height: auto;
-  min-height: 300px;
+  min-height: 400px;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
