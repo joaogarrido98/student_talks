@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function loadData(posts) {
     let totalPosts = posts.length;
     if (totalPosts >= 10) {
-        totalPosts = 9;
+        totalPosts = 10;
     }
     for (let i = 0; i < totalPosts; i++) {
         console.log(posts[i])
