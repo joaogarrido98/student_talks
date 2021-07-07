@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://joaogarrido98.github.io/blog/resources/posts.json")
+    fetch("https://joaogarrido98.github.io/resources/posts.json")
         .then(response => response.json())
         .then(data => loadData(data.posts));
 });
@@ -27,7 +27,9 @@ function createItem(posts, ul) {
                 <a href='${url}' class='post-link'>
                 <span class='post-title'>${posts['title']}</span>
                 </a>
+                <div class='post-description-wrapper'>
                 <div class='post-description'>${posts["short-description"]}</div>
+                </div>
                 <div class='utility-info'>
                 <div class='left'> 
                     <ul class='tags-list'>
