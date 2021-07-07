@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://joaogarrido98.github.io/resources/posts.json")
+    fetch("https://joaogarrido98.github.io/blog/resources/posts.json")
         .then(response => response.json())
         .then(data => loadData(data.posts));
 });
