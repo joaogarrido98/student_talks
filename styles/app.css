@@ -1,5 +1,6 @@
 :root {
   --main-color: #ff7f50;
+  --secondary-color: #cf6640;
 }
 * {
   box-sizing: border-box;
@@ -9,7 +10,7 @@
 }
 
 html {
-  height: 100%;
+  height: auto;
 }
 
 body {
