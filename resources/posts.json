@@ -243,6 +243,6 @@
         }
       },
       "tags": ["kotlin", "database", "bootstrap"]
-    },
+    }
   ]
 }
