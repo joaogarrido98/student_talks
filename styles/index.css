@@ -54,6 +54,17 @@ main {
   margin: 2rem 0;
 }
 
+.post-item {
+}
+
+.post-inner {
+}
+
+.post-link {
+}
+
+.post-description {
+}
 @media (min-width: 670px) {
   .hero-title {
     font-size: 4.75rem;

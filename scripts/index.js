@@ -20,6 +20,6 @@ function createItem(posts, ul) {
     let url = "https://joaogarrido98.github.io/post?id=" + posts["post_id"];
     let li = document.createElement("li");
     li.classList.add("list-item");
-    li.innerHTML = `<div class='post-item'><div class='post-inner'><a href='${url}' class='post-link'><span class='post-title'>${posts['title']}</span></a><p class='posts-description'>${posts["short-description"]}</p></div></div>`;
+    li.innerHTML = `<div class='post-item'><div class='post-inner'><a href='${url}' class='post-link'><span class='post-title'>${posts['title']}</span></a><p class='post-description'>${posts["short-description"]}</p></div></div>`;
     ul.append(li);
 }
