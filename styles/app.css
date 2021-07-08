@@ -212,7 +212,7 @@ a {
     z-index: 21;
     padding: 3px;
     position: fixed;
-    right: 10%;
+    right: 7%;
   }
 
   .hamburger.active .bar:nth-child(2) {
