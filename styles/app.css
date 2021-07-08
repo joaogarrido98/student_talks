@@ -187,10 +187,10 @@ a {
 @media (max-width: 800px) {
   .nav-menu {
     z-index: 20;
-    position: fixed;
     left: -100%;
     top: 0;
     flex-direction: column;
+    position: fixed;
     background-color: var(--background-color);
     width: 100%;
     text-align: center;
@@ -212,7 +212,6 @@ a {
     cursor: pointer;
     z-index: 21;
     padding: 3px;
-    position: fixed;
     right: 7%;
   }
 
