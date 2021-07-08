@@ -13,7 +13,7 @@ main {
   flex: 1 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 0 4rem;
+  padding: 5rem 0 4rem;
 }
 
 .presentation {
@@ -31,13 +31,17 @@ main {
   font-size: 2.5rem;
 }
 
+.hero-content-wrapper {
+  margin-top: 1.5rem;
+}
+
 .hero-content {
   margin-bottom: 0;
   margin-top: 20px;
   font-size: 1.5rem;
   font-weight: 200;
 }
-.hero-content:nth-of-type(2) {
+.hero-content {
   margin-top: 0;
 }
 
@@ -61,7 +65,7 @@ main {
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  background-color: rgb(19, 24, 39);
+  background-color: var(--background-secondary);
   box-shadow: 14px 14px 60px -10px rgb(0 0 0 / 30%);
 }
 
@@ -81,6 +85,7 @@ main {
   overflow-wrap: break-word;
   hyphens: auto;
   display: block;
+  padding: 10px;
 }
 
 .post-title {
@@ -100,10 +105,10 @@ main {
   width: 100%;
   position: relative;
   padding: 0 20px;
-  bottom: -200px;
+  bottom: -50px;
   left: 0;
   margin: 0 auto;
-  z-index: 20;
+  z-index: 1;
   opacity: 0;
   transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
@@ -136,6 +141,7 @@ main {
 
 .right span {
   margin-right: 5px;
+  font-weight: 600;
 }
 
 .right i {
@@ -152,15 +158,39 @@ main {
 .tags-list li {
   text-align: center;
   flex-grow: 1;
-  color: black;
-  font-weight: 600;
+  color: var(--background-secondary);
+  font-weight: 700;
   text-transform: capitalize;
   background-color: var(--main-color);
   border-radius: 4px;
   padding: 0 0.5em;
   margin-right: 0.5em;
-  line-height: 1.5em;
+  line-height: 1.8em;
   transition: all, 0.2s;
+  letter-spacing: 1px;
+}
+
+.all-posts {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.check_posts {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: var(--button-background);
+  color: var(--button-text);
+  transition: 0.4s all ease-in-out;
+}
+
+.check_posts:hover {
+  background-color: var(--button-text);
+  color: var(--button-background);
+  transition: 0.4s all ease-in-out;
 }
 
 @media (min-width: 670px) {

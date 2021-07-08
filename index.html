@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/app.css" />
     <link rel="icon" href="resources/images/blogger.png" type="image/png" />
-    <title>Students Talk</title>
+    <title>Student Talks</title>
   </head>
   <body>
     <header>
@@ -35,8 +35,16 @@
               target="_blank"
               href="https://joaogarrido98.github.io/joao-garrido"
               class="nav-link"
-              >About</a
-            >
+              >About<i style="margin-left: 10px" class="fa fa-external-link"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+              </label>
+            </div>
           </li>
         </ul>
         <div class="hamburger">
@@ -51,10 +59,15 @@
         <div class="hero-inner">
           <span class="presentation">Hello, I'm João Garrido</span>
           <h1 class="hero-title">Welcome reader</h1>
-          <p class="hero-content">
-            This is a student point of view on programming.
-          </p>
-          <p class="hero-content">Join us in learning</p>
+          <div class="hero-content-wrapper">
+            <p class="hero-content">
+              This is a student point of view on many topics.
+            </p>
+            <p class="hero-content">
+              From programming to economics and languages.
+            </p>
+            <p class="hero-content">Join us in learning</p>
+          </div>
         </div>
       </div>
       <div class="posts-container">
@@ -63,6 +76,13 @@
           <ul class="posts-list"></ul>
         </div>
       </div>
+      <p class="all-posts">
+        <a
+          class="check_posts"
+          href="https://joaogarrido98.github.io/blog/posts.html"
+          >Find All Posts</a
+        >
+      </p>
     </main>
     <footer class="footer">
       <div class="footer-inside">
