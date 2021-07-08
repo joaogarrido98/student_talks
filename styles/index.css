@@ -52,7 +52,7 @@ main {
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   grid-gap: 3rem;
   margin: 2rem 0;
 }
@@ -198,5 +198,12 @@ main {
   }
   .hero-content {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-description {
+    bottom: 0;
+    opacity: 1;
   }
 }
