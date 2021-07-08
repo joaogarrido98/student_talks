@@ -1,10 +1,11 @@
 main {
-  width: 80%;
+  width: 85%;
   max-width: 80%;
   margin: auto;
   flex-direction: column;
   display: flex;
   flex: 1 0 auto;
+  text-align: center;
 }
 
 .hero {
@@ -12,7 +13,7 @@ main {
   flex: 1 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding: 10% 0 4rem;
+  padding: 6% 0 4rem;
 }
 
 .presentation {
@@ -46,6 +47,10 @@ main {
 
 .posts-container {
   margin-top: 2rem;
+}
+
+.posts-container h1 {
+  text-align: left;
 }
 
 .posts-list {
@@ -85,6 +90,7 @@ main {
   hyphens: auto;
   display: block;
   padding: 10px;
+  text-align: left;
 }
 
 .post-title {

@@ -44,12 +44,12 @@ function createItem(posts, ul) {
     let li = document.createElement("li");
     li.classList.add("list-item");
     li.innerHTML =
-        `<div class='post-item'>
+        `<a href='${url}' class='post-item'>
         <div class='post-wrapper'>
             <div class='post-inner'>
-                <a href='${url}' class='post-link'>
+                <p class='post-link'>
                 <span class='post-title'>${posts['title']}</span>
-                </a>
+                </p>
                 <div class='post-description-wrapper'>
                 <div class='post-description'>${posts["short-description"]}</div>
                 </div>
