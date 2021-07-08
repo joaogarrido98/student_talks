@@ -196,6 +196,7 @@ a {
     text-align: center;
     transition: 0.3s;
     padding-top: 3rem;
+    height: 100%;
   }
 
   .nav-menu.active {
