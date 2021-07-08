@@ -2,10 +2,10 @@
   "posts": [
     {
       "post_id": 1,
-      "title": "Very big Title for test purposes",
-      "short-description": "This is a short description about a certeain topiciwoifbwabfovt descrfnaiwoifbwabfovt",
-      "year": 2010,
-      "date": "xx YYY xxxx",
+      "title": "The first one",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person.",
+      "year": 2021,
+      "date": "08 JUL 2021",
       "content": {
         "1": {
           "content_title": "title",
@@ -20,7 +20,7 @@
           "content_code": ["println(FAWfwaf)", "addEventListener()"]
         }
       },
-      "tags": ["kotlin", "database", "bootstrap"],
+      "tags": ["about-us", "first-post"],
       "preview": "https://joaogarrido98.github.io/blog/images/img_1_preview.jpg"
     },
     {
@@ -89,5 +89,6 @@
       },
       "tags": ["kotlin", "database", "bootstrap"]
     }
-  ]
+  ],
+  "tags": ["kotlin", "about-us", "first-post"]
 }
