@@ -99,7 +99,7 @@ body {
   width: 100%;
 }
 header {
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .navbar {
@@ -108,7 +108,7 @@ header {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 .nav-menu {
@@ -126,7 +126,7 @@ header {
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--text-color);
-  transition: 0.3s all;
+  transition: 0.3s all ease-in-out;
 }
 
 .nav-link:hover {
@@ -136,6 +136,7 @@ header {
 .nav-link i {
   transition: 0.3s all;
   font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .nav-link:hover i {
@@ -143,7 +144,7 @@ header {
 }
 
 .nav-logo {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   color: var(--main-color);
 }
@@ -185,10 +186,12 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 0;
     flex-direction: column;
     background-color: var(--background-color);
     width: 100%;
+    height: 100%;
+    z-index: 9;
     text-align: center;
     transition: 0.3s;
   }
@@ -204,6 +207,8 @@ a {
   .hamburger {
     display: block;
     cursor: pointer;
+    z-index: 10;
+    padding: 3px;
   }
 
   .hamburger.active .bar:nth-child(2) {
