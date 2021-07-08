@@ -194,7 +194,7 @@ a {
     background-color: var(--background-color);
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.5s all ease-in-out;
     padding-top: 3rem;
     height: 100%;
   }
@@ -207,11 +207,16 @@ a {
     margin: 2.5rem 0;
   }
 
+  .nav-item .nav-link {
+    font-size: 2.5rem;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
     z-index: 21;
     padding: 3px;
+    position: fixed;
     right: 7%;
   }
 
@@ -225,5 +230,13 @@ a {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .theme-switch-wrapper {
+    margin-top: 0;
+  }
+
+  .theme-switch {
+    height: 6px;
   }
 }
