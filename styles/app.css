@@ -20,6 +20,10 @@
   --background-slider: #272b35;
 }
 
+::selection {
+  background: #f16c3bea;
+}
+
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
