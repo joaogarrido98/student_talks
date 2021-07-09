@@ -29,6 +29,7 @@
   color: var(--text-color);
   margin: 0;
   font-family: "Segoe UI", sans-serif;
+  cursor: default;
 }
 
 html {
@@ -42,6 +43,9 @@ body {
 }
 header {
   padding: 3rem 0;
+}
+a {
+  cursor: pointer;
 }
 
 .theme-switch-wrapper {

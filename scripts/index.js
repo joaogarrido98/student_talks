@@ -44,7 +44,7 @@ function createItem(posts, ul) {
     let li = document.createElement("li");
     li.classList.add("list-item");
     li.innerHTML =
-        `<a href='${url}' class='post-item'>
+        `<div class='post-item'>
         <div class='post-wrapper'>
             <div class='post-inner'>
             <img class='background-images' src='${posts["preview"]}' alt='background image'/>
