@@ -124,6 +124,10 @@ input:checked + .slider:before {
   position: relative;
 }
 
+.nav-item .nav-link i {
+  cursor: pointer;
+}
+
 .nav-item .nav-link {
   font-size: 1.3rem;
   font-weight: 500;
