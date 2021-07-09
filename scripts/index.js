@@ -47,6 +47,7 @@ function createItem(posts, ul) {
         `<a href='${url}' class='post-item'>
         <div class='post-wrapper'>
             <div class='post-inner'>
+            <img src='${posts["preview"]}' alt='background image'/>
                 <p class='post-link'>
                 <span class='post-title'>${posts['title']}</span>
                 </p>
