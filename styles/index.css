@@ -107,9 +107,11 @@ main {
 }
 
 .post-description {
+  text-overflow: ellipsis;
   font-weight: 400;
   letter-spacing: 1px;
   word-break: break-word;
+  height: auto;
   line-height: 1.5rem;
   width: 100%;
   position: relative;
