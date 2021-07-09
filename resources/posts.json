@@ -21,7 +21,7 @@
         }
       },
       "tags": ["about-us", "first-post"],
-      "preview": "resources/images/img_1_preview.jpg"
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     },
     {
       "post_id": 1,
@@ -44,7 +44,7 @@
         }
       },
       "tags": ["about-us", "first-post"],
-      "preview": "https://github.com/joaogarrido98/blog/blob/master/resources/images/img_1_preview.jpg"
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     },
     {
       "post_id": 1,
@@ -67,7 +67,7 @@
         }
       },
       "tags": ["about-us", "first-post"],
-      "preview": "https://joaogarrido98.github.io/blog/images/img_1_preview.jpg"
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     },
     {
       "post_id": 1,
@@ -90,7 +90,7 @@
         }
       },
       "tags": ["about-us", "first-post"],
-      "preview": "https://joaogarrido98.github.io/blog/images/img_1_preview.jpg"
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     }
   ],
   "tags": ["kotlin", "about-us", "first-post"]
