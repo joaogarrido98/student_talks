@@ -57,7 +57,7 @@ main {
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 3rem;
   margin: 2rem 0;
 }
@@ -65,7 +65,7 @@ main {
 .post-wrapper {
   display: block;
   height: auto;
-  min-height: 400px;
+  min-height: 350px;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -91,9 +91,11 @@ main {
   display: block;
   padding: 10px;
   text-align: left;
+  z-index: 10;
 }
 
 .post-title {
+  position: relative;
   font-weight: 500;
   font-size: 1.75rem;
   line-height: 1.4;
@@ -101,10 +103,12 @@ main {
 }
 
 .post-description-wrapper {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .post-description {
+  font-weight: 400;
+  letter-spacing: 1px;
   word-break: break-word;
   line-height: 1.5rem;
   width: 100%;
@@ -115,7 +119,7 @@ main {
   margin: 0 auto;
   z-index: 1;
   opacity: 0;
-  transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: bottom 0.4s, opacity 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
 
 .list-item:hover .post-description {
@@ -193,6 +197,52 @@ main {
 }
 
 .check_posts:hover {
+  background-color: var(--button-text);
+  color: var(--button-background);
+  transition: 0.4s all ease-in-out;
+}
+
+.background-images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 46, 46, 0.5);
+  transition: 0.2s all ease-in-out;
+}
+
+.list-item:hover .overlay {
+  transition: 0.2s all ease-in-out;
+  background-color: rgba(44, 36, 28, 0.7);
+}
+
+.read-more {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.read-more-link {
+  font-size: 1rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background-color: var(--button-background);
+  color: var(--button-text);
+  transition: 0.3s all ease-in-out;
+}
+
+.read-more-link:hover {
   background-color: var(--button-text);
   color: var(--button-background);
   transition: 0.4s all ease-in-out;

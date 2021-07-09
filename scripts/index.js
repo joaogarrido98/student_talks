@@ -47,12 +47,17 @@ function createItem(posts, ul) {
         `<a href='${url}' class='post-item'>
         <div class='post-wrapper'>
             <div class='post-inner'>
-            <img src='${posts["preview"]}' alt='background image'/>
+            <img class='background-images' src='${posts["preview"]}' alt='background image'/>
+            <div class='overlay'></div> 
                 <p class='post-link'>
                 <span class='post-title'>${posts['title']}</span>
                 </p>
                 <div class='post-description-wrapper'>
-                <div class='post-description'>${posts["short-description"]}</div>
+                <div class='post-description'>${posts["short-description"]}
+                <p class='read-more'>
+                    <a class='read-more-link' href="https://joaogarrido98.github.io/blog/post.html?id=${url}">Read</a>
+                    </p>
+                </div>
                 </div>
                 <div class='utility-info'>
                 <div class='left'> 
