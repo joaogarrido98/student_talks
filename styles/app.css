@@ -182,7 +182,7 @@ a {
 }
 
 .footer {
-  border-top: 1px solid #353535;
+  background-color: #0a0d0f;
   width: 100%;
   position: relative;
   bottom: 0;
@@ -190,14 +190,21 @@ a {
 }
 
 .footer-inside {
-  padding: 2rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social {
 }
 
 .lock-scroll {
   position: fixed;
   overflow-y: scroll;
 }
-
 @media (max-width: 800px) {
   .nav-menu {
     z-index: 20;

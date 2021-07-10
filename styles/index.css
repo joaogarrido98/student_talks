@@ -172,10 +172,8 @@ main {
   text-transform: capitalize;
   background-color: var(--main-color);
   border-radius: 4px;
-  padding: 0 0.5em;
   margin-right: 0.5em;
   line-height: 1.8em;
-  transition: all, 0.2s;
   letter-spacing: 1px;
 }
 
@@ -225,27 +223,8 @@ main {
   background-color: rgba(44, 36, 28, 0.7);
 }
 
-.read-more {
-  text-align: right;
-  margin-top: 20px;
-}
-
-.read-more-link {
-  font-size: 1rem;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  border-radius: 4px;
-  padding: 5px 15px;
-  background-color: var(--button-background);
-  color: var(--button-text);
-  transition: 0.3s all ease-in-out;
-}
-
-.read-more-link:hover {
-  background-color: var(--button-text);
-  color: var(--button-background);
-  transition: 0.4s all ease-in-out;
+strong {
+  color: var(--main-color);
 }
 
 @media (min-width: 670px) {
@@ -254,6 +233,9 @@ main {
   }
   .hero-content {
     font-size: 2rem;
+  }
+  .presentation {
+    font-size: 1.8rem;
   }
 }
 

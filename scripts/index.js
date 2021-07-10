@@ -44,20 +44,16 @@ function createItem(posts, ul) {
     let li = document.createElement("li");
     li.classList.add("list-item");
     li.innerHTML =
-        `<div class='post-item'>
+        `<a href='${url}' class='post-item'>
         <div class='post-wrapper'>
             <div class='post-inner'>
-            <img class='background-images' src='${posts["preview"]}' alt='background image'/>
-            <div class='overlay'></div> 
-                <p class='post-link'>
-                <span class='post-title'>${posts['title']}</span>
-                </p>
-                <div class='post-description-wrapper'>
-                <div class='post-description'>${posts["short-description"]}
-                <p class='read-more'>
-                    <a class='read-more-link' href="https://joaogarrido98.github.io/blog/post.html?id=${url}">Read</a>
+                <img class='background-images' src='${posts["preview"]}' alt='background image'/>
+                <div class='overlay'></div> 
+                    <p class='post-link'>
+                        <span class='post-title'>${posts['title']}</span>
                     </p>
-                </div>
+                <div class='post-description-wrapper'>
+                <div class='post-description'>${posts["short-description"]}</div>
                 </div>
                 <div class='utility-info'>
                 <div class='left'> 
@@ -71,6 +67,7 @@ function createItem(posts, ul) {
                 </div>
             </div>
         </div>
-    </div>`;
+    </div>
+    </a>`;
     ul.append(li);
 }
