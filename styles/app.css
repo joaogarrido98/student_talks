@@ -10,7 +10,7 @@
 
 [data-theme="light"] {
   --main-color: hsl(16, 100%, 65%);
-  --background-color: hsl(240, 14%, 97%);
+  --background-color: hsl(210, 55%, 96%);
   --text-color: white;
   --button-background: hsl(223, 20%, 20%);
   --button-text: var(--main-color);
@@ -35,6 +35,7 @@ html {
 }
 
 body {
+  transition: background-color 0.4s linear;
   background-color: var(--background-color);
   height: 100%;
   width: 100%;
@@ -174,12 +175,12 @@ a {
 }
 
 .footer-inside {
-  padding: 3rem;
-  padding-left: 10%;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .social h3 {
@@ -187,12 +188,14 @@ a {
   border-left: 0;
   border-top: 0;
   border-right: 0;
+  margin: auto;
   width: fit-content;
 }
 
 .social-buttons {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10px;
   margin-top: 20px;
 }
 .social-button {

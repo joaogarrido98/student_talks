@@ -21,46 +21,29 @@ h1 {
   font-size: 2rem;
 }
 
-.clickable-tags {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  max-width: 70%;
-  margin: auto;
+.posts-container {
+  margin-top: 3rem;
 }
-
-.options-list {
-  display: flex;
-  flex-wrap: wrap;
+.posts-container ul {
   padding: 0;
-  justify-content: space-evenly;
+  list-style-type: none;
+}
+.posts-container li {
+  padding: 10px;
 }
 
-.option {
-  margin-top: 10px !important;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 4px 10px;
-  border: 2px solid var(--main-color);
-  border-radius: 16px;
-  margin: auto;
-  color: var(--main-color);
-  transition: 0.2s all ease-in-out;
+.posts-container li a {
   cursor: pointer;
 }
 
-.option.active,
-.option:hover {
-  color: black;
-  background-color: var(--main-color);
+.post .title {
+  font-size: 3rem;
+  color: var(--main-color);
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
   h1 {
     font-size: 4rem;
-  }
-
-  .option {
-    font-size: 1.2rem;
   }
 }

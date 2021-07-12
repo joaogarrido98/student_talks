@@ -22,7 +22,98 @@
       },
       "tags": ["about-us", "first-post"],
       "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
+    },
+    {
+      "post_id": 2,
+      "title": "The first one",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla",
+      "year": 2021,
+      "date": "08 JUL 2021",
+      "content": {
+        "1": {
+          "content_title": "title",
+          "content_text": "ofabawfbioafawboawifbaiwoowifawwofia",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        },
+        "2": {
+          "content_title": "title2",
+          "content_text": "fwaoibwfabifwabfwiowb2",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        }
+      },
+      "tags": ["about-us", "first-post"],
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
+    },
+    {
+      "post_id": 3,
+      "title": "The first one",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla",
+      "year": 2021,
+      "date": "08 JUL 2021",
+      "content": {
+        "1": {
+          "content_title": "title",
+          "content_text": "ofabawfbioafawboawifbaiwoowifawwofia",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        },
+        "2": {
+          "content_title": "title2",
+          "content_text": "fwaoibwfabifwabfwiowb2",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        }
+      },
+      "tags": ["about-us", "first-post"],
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
+    },
+    {
+      "post_id": 4,
+      "title": "The first one",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla",
+      "year": 2021,
+      "date": "08 JUL 2021",
+      "content": {
+        "1": {
+          "content_title": "title",
+          "content_text": "ofabawfbioafawboawifbaiwoowifawwofia",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        },
+        "2": {
+          "content_title": "title2",
+          "content_text": "fwaoibwfabifwabfwiowb2",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        }
+      },
+      "tags": ["about-us", "first-post"],
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
+    },
+    {
+      "post_id": 5,
+      "title": "The first one",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla bla blba bla",
+      "year": 2021,
+      "date": "08 JUL 2021",
+      "content": {
+        "1": {
+          "content_title": "title",
+          "content_text": "ofabawfbioafawboawifbaiwoowifawwofia",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        },
+        "2": {
+          "content_title": "title2",
+          "content_text": "fwaoibwfabifwabfwiowb2",
+          "content_image": ["bla bla bla"],
+          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+        }
+      },
+      "tags": ["about-us", "first-post"],
+      "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     }
-  ],
-  "tags": ["kotlin", "java", "haskell", "android", "web", "AI"]
+  ]
 }
