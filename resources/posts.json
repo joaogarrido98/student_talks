@@ -24,5 +24,14 @@
       "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     }
   ],
-  "tags": ["kotlin", "about-us", "first-post"]
+  "tags": [
+    "kotlin",
+    "about-us",
+    "first-post",
+    "java",
+    "haskell",
+    "android",
+    "web",
+    "AI"
+  ]
 }

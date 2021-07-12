@@ -26,6 +26,15 @@ h1 {
   padding-bottom: 2rem;
 }
 
+.options-list {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.options {
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 4rem;

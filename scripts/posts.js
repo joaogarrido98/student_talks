@@ -1,17 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
     fetch("https://joaogarrido98.github.io/blog/resources/posts.json")
         .then(response => response.json())
-        .then(data => loadData(data.posts));
+        .then(data => loadData(data));
 });
 
 
-function loadData(posts) {
-    document.querySelector("#total-posts").textContent = posts.length + " Blog Posts";
+function loadData(data) {
+    document.querySelector("#total-posts").textContent = data.posts.length + " Blog Posts";
+
+    let options_list = document.querySelector(".options-list");
+    for (let j = 0; j < data.tags.length; j++) {
+        addOptions(data.tags[j], options_list);
+    }
 
     let ul = document.querySelector(".posts-list");
-    for (let i = 0; i < posts.length; i++) {
-        createItem(posts[i], ul);
+    ul.innerText = "";
+    for (let i = 0; i < data.posts.length; i++) {
+        createItem(data.posts[i], ul);
     }
+}
+
+
+function addOptions(data, ul) {
+    let li = document.createElement("li");
+    li.classList.add("option");
+    li.innerText = data;
+    ul.append(li);
 }
 
 function createItem(posts, ul) {
