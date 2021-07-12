@@ -20,7 +20,7 @@
           "content_code": ["println(FAWfwaf)", "addEventListener()"]
         }
       },
-      "tags": [],
+      "tags": ["about-us", "first-post"],
       "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     }
   ],
