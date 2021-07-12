@@ -1,27 +1,33 @@
 {
-  "posts": [
-    {
+  "posts": {
+    "1": {
       "post_id": 1,
-      "title": "The first one",
-      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. I hope you can find the posts interesting and easy to follow. Welcome",
+      "title": "Student Talks",
+      "short-description": "This is the first post on this blog, just a simple  \"Get to know us\", a welcoming for every person. I hope you can find the posts interesting and easy to follow. Welcome to Student Talks",
       "year": 2021,
       "date": "12 JUL 2021",
-      "content": {
-        "1": {
-          "content_title": "Idea",
-          "content_text": "Hello, my name is João Garrido and im currently a second year computer science student at the University of Liverpool ",
+      "content": [
+        {
+          "content_title": "Hello,",
+          "content_text": "My name is João Garrido and im currently a second year computer science student at the University of Liverpool, with this blog I want to give everyone reading a way to see the world of programming and technology through the eyes of a student and the eyes of someone who hasn't started the \"real\" life yet.",
           "content_image": null,
           "content_code": null
         },
-        "2": {
-          "content_title": "title2",
-          "content_text": "fwaoibwfabifwabfwiowb2",
+        {
+          "content_title": "Background",
+          "content_text": "I started coding 5 years ago when I started secondary school in Portugal and throughout those three years I learnt a lot, mainly about web development and desktop development with c#. I created a few small projects but my main knowledge of programming came from searching for myself to find what I loved to do. I ended up falling in love with kotlin on my third year, when we had to create a big project that showed our programming capabilities and for 1 month I kept searching what to use and ended up using Kotlin with android to develop an app for vegan and vegetarian recipes, happy to say that app provided me with the highest grade possible! Now I'm just student trying to improve my knowledge of programming.",
           "content_image": null,
-          "content_code": ["println(FAWfwaf)", "addEventListener()"]
+          "content_code": null
+        },
+        {
+          "content_title": "Idea",
+          "content_text": "The very first time I thought about doing something like this was around 6 months ago but I was always thinking, - Who's gonna read what I have to write? Well here I am, although I might not be a FAANG developer or have a youtube page or even not have 20 years of experience in coding I'm gonna give all my knowledge to everyone who's able to read this blog. Once again Welcome to Student Talks.",
+          "content_image": null,
+          "content_code": null
         }
-      },
+      ],
       "tags": ["About-Us", "First"],
       "preview": "https://joaogarrido98.github.io/blog/resources/images/img_1_preview.jpg"
     }
-  ]
+  }
 }

@@ -57,11 +57,11 @@ h1 {
   font-size: 2rem;
   color: var(--main-color);
   font-weight: 600;
+  transition: 0.2s all ease-in-out;
 }
 
 .posts .title:hover {
   color: var(--secondary-color);
-  text-decoration: underline;
 }
 
 .tag {
