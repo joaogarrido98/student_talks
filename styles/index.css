@@ -54,6 +54,8 @@ main {
 .posts-container h1 {
   text-align: left;
   color: var(--hero-text);
+  border-bottom: 6px solid var(--main-color);
+  width: fit-content;
 }
 
 .posts-list {
