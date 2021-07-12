@@ -24,6 +24,8 @@ h1 {
 .clickable-tags {
   padding-top: 3rem;
   padding-bottom: 2rem;
+  max-width: 70%;
+  margin: auto;
 }
 
 .options-list {
@@ -32,7 +34,23 @@ h1 {
   justify-content: center;
 }
 
-.options {
+.option {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 4px 10px;
+  border: 2px solid var(--main-color);
+  border-radius: 16px;
+  margin: auto;
+  color: var(--main-color);
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.option.active,
+.option:hover {
+  color: black;
+  background-color: var(--main-color);
 }
 
 @media (min-width: 768px) {
