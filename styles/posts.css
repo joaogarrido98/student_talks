@@ -1,5 +1,4 @@
 main {
-  width: 85%;
   max-width: 80%;
   margin: auto;
   flex-direction: column;
@@ -14,36 +13,90 @@ main {
   justify-content: center;
   padding: 6% 0 4rem;
 }
+
 h1 {
   display: flex;
   border-bottom: 2px solid var(--main-color);
   width: fit-content;
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .posts-container {
-  margin-top: 3rem;
+  margin-top: 7%;
 }
 .posts-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
+  max-width: 100%;
+  margin: auto;
   list-style-type: none;
 }
 .posts-container li {
-  padding: 10px;
+  text-align: left;
+  margin-bottom: 5rem;
 }
 
-.posts-container li a {
-  cursor: pointer;
+.sub-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-info span {
+  color: rgb(105, 105, 105);
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 1;
 }
 
 .post .title {
-  font-size: 3rem;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 2rem;
   color: var(--main-color);
   font-weight: 600;
+}
+
+.posts .title:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.tag {
+  text-transform: uppercase;
+}
+.tag::before {
+  content: "⋅";
+  margin-right: 6px;
+}
+
+.info {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.6;
+  word-wrap: break-word;
 }
 
 @media (min-width: 768px) {
   h1 {
     font-size: 4rem;
+  }
+
+  .posts-container li {
+    max-width: 60%;
+  }
+
+  .post .title {
+    font-size: 2.5rem;
+  }
+
+  .info {
+    font-size: 1.3rem;
+  }
+
+  .sub-info span {
+    font-size: 1.2rem;
   }
 }

@@ -1,5 +1,6 @@
 :root {
   --main-color: hsl(16, 100%, 65%);
+  --secondary-color: hsl(16, 100%, 40%);
   --background-color: hsl(204, 10%, 10%);
   --text-color: white;
   --button-background: hsl(240, 19%, 23%);

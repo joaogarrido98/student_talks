@@ -21,15 +21,18 @@ function createItem(posts, ul) {
     let li = document.createElement("li");
     li.classList.add("list-item");
     li.innerHTML =
-        `<a class="post" href="${url}">
-             <p class="title">${posts.title}</p>
+        `<div class="post">
+            <a href="${url}"> <h2 class="title">${posts.title}</h2></a>
+             <div class="sub-info">
              <span class="date">${posts.date}</span>
              <div id="tags_${posts["post_id"]}"></div>
-        </a>`;
+             </div>
+             <div class="info">${posts["short-description"]}</div>
+        </div>`;
     ul.append(li);
     let tag_holder = document.querySelector(`#tags_${posts["post_id"]}`);
     posts.tags.forEach(element => {
-        let div = document.createElement("div");
+        let div = document.createElement("span");
         div.classList.add("tag");
         div.innerText = element;
         tag_holder.append(div);
