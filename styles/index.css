@@ -96,10 +96,3 @@ strong {
     font-size: 1.8rem;
   }
 }
-
-@media (max-width: 768px) {
-  .post-description {
-    bottom: 0;
-    opacity: 1;
-  }
-}

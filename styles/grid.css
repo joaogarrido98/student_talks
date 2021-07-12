@@ -144,3 +144,10 @@
   line-height: 1.8em;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .post-description {
+    bottom: 0;
+    opacity: 1;
+  }
+}
