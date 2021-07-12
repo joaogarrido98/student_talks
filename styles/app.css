@@ -122,11 +122,6 @@ input:checked + .slider:before {
   position: relative;
 }
 
-.nav-item .nav-link i {
-  cursor: pointer;
-  color: var(--hero-text);
-}
-
 .nav-item .nav-link {
   font-size: 1.3rem;
   font-weight: 500;
@@ -139,16 +134,6 @@ input:checked + .slider:before {
 }
 
 .nav-item.active .nav-link {
-  color: var(--main-color);
-}
-
-.nav-link i {
-  transition: 0.3s all;
-  font-size: 0.95rem;
-  font-weight: 600;
-}
-
-.nav-link:hover i {
   color: var(--main-color);
 }
 
@@ -269,11 +254,6 @@ a {
 
   .nav-item .nav-link {
     font-size: 2.5rem;
-    cursor: pointer;
-  }
-
-  .nav-item .nav-link i {
-    font-size: 2rem;
     cursor: pointer;
   }
 
