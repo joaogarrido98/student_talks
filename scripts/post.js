@@ -27,6 +27,9 @@ function loadData(post) {
         tag_holder.append(div);
     });
 
+    let short_description = post["short-description"];
+    document.querySelector(".short-description").innerHTML = short_description;
+
     post.content.forEach(element => {
         loadContent(element)
     });

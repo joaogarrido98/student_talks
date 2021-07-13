@@ -31,17 +31,27 @@ main {
   margin-left: 10px;
 }
 
+.short-description {
+  color: var(--hero-text);
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .content {
   margin-top: 2rem;
 }
 
 .content_title {
+  color: var(--hero-text);
   margin-top: 2rem;
   font-size: 2rem;
   text-decoration: underline var(--main-color);
 }
 
 .content_text {
+  color: var(--hero-text);
   margin-top: 20px;
   word-break: break-word;
   letter-spacing: 1px;
@@ -85,5 +95,11 @@ strong {
 
   .content_text {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .post-container {
+    max-width: 70%;
   }
 }
