@@ -54,6 +54,8 @@ function loadContent(content) {
     }
 
     if (content.content_code != null) {
-        console.log("code")
+        content.content_code.forEach(element => {
+            console.log(element);
+        });
     }
 }

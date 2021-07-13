@@ -16,7 +16,6 @@ function loadData(data) {
 }
 
 function createItem(posts, ul) {
-    console.log(posts)
     let url = "https://joaogarrido98.github.io/blog/post.html?id=" + posts["post_id"];
     let li = document.createElement("li");
     li.classList.add("list-item");
