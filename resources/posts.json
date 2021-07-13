@@ -9,19 +9,28 @@
       "content": [
         {
           "content_title": "You nervous?",
-          "content_text": "I know you just got to university youngling but do not despair, it's not as a monster as people people make it to be. A year ago when I was in your shoes I also thought that I would be crushed by assignments and kept having that little pea under the mattress saying \"you're not smart enough for this\" but that was not what happened.",
+          "content_text": "I know you just got to university youngling but do not despair, it's not as a monster as people people make it to be. A year ago when I was in your shoes I also thought that I would be crushed by assignments and kept having that little pea under the mattress saying \"you're not smart enough for this\" but that was not what happened. And believe me when I say that you will feel the same by the end of your first year!",
           "content_image": null,
           "content_code": null,
           "content_alert": null
         },
         {
           "content_title": "What is it actually like",
-          "content_text": "I started coding 5 years ago when I started secondary school in Portugal and throughout those three years I learnt a lot, mainly about web development and desktop development with c#. I created a few small projects but my main knowledge of programming came from searching for myself to find what I loved to do. I ended up falling in love with kotlin on my third year, when we had to create a big project that showed our programming capabilities and for 1 month I kept searching what to use and ended up using Kotlin with android to develop an app for vegan and vegetarian recipes, happy to say that app provided me with the highest grade possible! Now I'm just student trying to improve my knowledge of programming.",
+          "content_text": "Well first of all is not a big scary monster, yes sometimes it's a lot of work, yes sometimes you get hard topics on a few modules. But honestly it's quite manageable if you are someone that gets on top of things with time. I'm not going to lie, if you only start doing assignments and work a few days before there's not much to say, you're f****d but if you start doing it with time you'll get it done easy. At least with first year modules you won't have mad 24/7 studing sessions. Yes sometimes you will feel that you have too much work or too many exams but the fear of doing it it's actually harder than the actually studying.",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": null
+        },
+
+        {
+          "content_title": "Conclusion",
+          "content_text": "Should you still be worried? Well....<strong> Yes </strong>it's still university modules, the right question is Should you still be afraid to fail? <strong>NO</strong>, because you will be able to do this if you put in the time needed. It's all about time management.",
           "content_image": null,
           "content_code": null,
           "content_alert": null
         }
       ],
+      "video": null,
       "tags": ["Learning", "Letter"],
       "preview": "./resources/images/post2/img_2_preview.jpg"
     },
@@ -54,6 +63,7 @@
           "content_alert": null
         }
       ],
+      "video": null,
       "tags": ["About-Us", "First"],
       "preview": "./resources/images/post1/img_1_preview.jpg"
     }
