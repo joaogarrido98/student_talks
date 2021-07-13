@@ -40,7 +40,20 @@ function loadContent(content) {
     let text = document.createElement("div");
     text.classList.add("content_text");
     text.innerHTML = content.content_text;
+
     let content_holder = document.querySelector(".content")
-    content_holder.append(title);
-    content_holder.append(text);
+    content_holder.append(title, text);
+
+    let img = document.createElement("img");
+    if (content.content_image != null) {
+        content.content_image.forEach(element => {
+            img.src = element;
+            img.classList.add("content_image");
+            content_holder.append(img);
+        });
+    }
+
+    if (content.content_code != null) {
+        console.log("code")
+    }
 }
