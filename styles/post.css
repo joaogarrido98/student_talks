@@ -44,8 +44,8 @@ main {
   margin-top: 20px;
   word-break: break-word;
   letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 1.2rem;
+  line-height: 1.625;
+  font-size: 1.25rem;
 }
 @media (min-width: 768px) {
   .post-title {
@@ -58,7 +58,7 @@ main {
 
   .post-container {
     margin: auto;
-    max-width: 60%;
+    max-width: 50%;
   }
 
   .content {
@@ -71,8 +71,6 @@ main {
   }
 
   .content_text {
-    letter-spacing: 1px;
-    line-height: 28px;
     font-size: 1.3rem;
   }
 }
