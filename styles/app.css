@@ -40,6 +40,9 @@ body {
   background-color: var(--background-color);
   height: 100%;
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 header {
   padding: 3rem 0;
@@ -170,9 +173,9 @@ a {
 .footer {
   background-color: hsl(227, 23%, 8%);
   width: 100%;
-  position: relative;
   bottom: 0;
-  margin-top: 2rem;
+  margin-top: auto;
+  margin-top: 10%;
 }
 
 .footer-inside {

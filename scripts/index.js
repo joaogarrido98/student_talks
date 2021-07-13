@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://joaogarrido98.github.io/blog/resources/posts.json")
+    fetch("./resources/posts.json")
         .then(response => response.json())
         .then(data => loadData(data.posts));
 
 });
 
 function loadData(posts) {
+    console.log(posts)
     let totalPosts = posts.length;
     if (totalPosts >= 10) {
         totalPosts = 10;
