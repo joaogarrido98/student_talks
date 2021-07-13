@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function loadData(posts) {
-    console.log(posts)
     let totalPosts = posts.length;
     if (totalPosts >= 10) {
         totalPosts = 10;
