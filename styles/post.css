@@ -83,7 +83,7 @@ strong {
   font-size: 1.25rem;
   font-weight: 500;
   padding: 20px 40px;
-  word-wrap: break-all;
+  word-break: break-all;
 }
 
 .alert-info::before {
