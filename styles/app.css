@@ -7,7 +7,7 @@
   --text-color: white;
   --button-background: hsl(240, 19%, 23%);
   --button-text: var(--main-color);
-  --background-slider: var(--background-slider);
+  --background-slider: var(--button-background);
   --hero-text: white;
 }
 

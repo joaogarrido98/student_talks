@@ -44,6 +44,7 @@ function loadContent(content) {
     text.classList.add("content_text");
     text.innerHTML = content.content_text;
 
+
     let content_holder = document.querySelector(".content")
     content_holder.append(title, text);
 
@@ -54,6 +55,16 @@ function loadContent(content) {
             img.classList.add("content_image");
             content_holder.append(img);
         });
+    }
+
+    let content_alert = content.content_alert;
+    if (content_alert != null) {
+        let type = content_alert.type;
+        let message = content_alert.message;
+        let alert = document.createElement("div");
+        alert.className = `alert alert-${type}`;
+        alert.innerHTML = "<div class='alert-inner'>" + message + "</div>";
+        content_holder.append(alert)
     }
 
     if (content.content_code != null) {

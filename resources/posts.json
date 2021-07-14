@@ -1,6 +1,35 @@
 {
   "posts": [
     {
+      "post_id": 3,
+      "title": "Hosting on github",
+      "short-description": "Many of us programmers enjoy to do our own little projects to ourselves and sometimes we just need to host these projects somewhere, here's how.",
+      "year": 2021,
+      "date": "15 JUL 2021",
+      "content": [
+        {
+          "content_title": "Setting Up the repository",
+          "content_text": "In the next few paragraphs you will learn how to host dynamic websites on github pages for free. You won't need anything like SQL or PHP, the only technologies used here is pure HTML5, CSS, JavaScript and JSON.From now on I will assume that you have a github account created. <br> <br> As you normally do create a new repository. Give it the name you want and make it private or public. Upload an <strong>index.html</strong> page just to initiate the repository. Once created and uploaded go to <strong>settings</strong> on the side menu you will find <strong>Pages</strong>, after this you'll find the following dropdown, choose the same values and save.",
+          "content_image": ["./resources/images/post3/img_1.jpg"],
+          "content_code": null,
+          "content_alert": {
+            "type": "info",
+            "message": "Your website will be hosted in a similar url:<br> https://your-username.github.io/repository-name"
+          }
+        },
+        {
+          "content_title": "What now",
+          "content_text": "To be done",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": null
+        }
+      ],
+      "video": null,
+      "tags": ["Hosting", "Github", "Web Dev", "JavaScript", "html", "css"],
+      "preview": "./resources/images/post3/img_3_preview.jpg"
+    },
+    {
       "post_id": 2,
       "title": "A letter to first year students",
       "short-description": "Sometimes we say and hear that we wanted to do things differently, would you actually do it differently? Well I know it's impossible so I just have to learn from the past.",
@@ -21,10 +50,9 @@
           "content_code": null,
           "content_alert": null
         },
-
         {
           "content_title": "Conclusion",
-          "content_text": "Should you still be worried? Well....<strong> Yes </strong>it's still university modules, the right question is Should you still be afraid to fail? <strong>NO</strong>, because you will be able to do this if you put in the time needed. It's all about time management.",
+          "content_text": "Should you still be worried? Well.... <strong>Yes</strong> it's still university modules, the right question is Should you still be afraid to fail? <strong>NO</strong>, because you will be able to do this if you put in the time needed. It's all about time management.",
           "content_image": null,
           "content_code": null,
           "content_alert": null
