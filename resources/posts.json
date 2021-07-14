@@ -14,7 +14,7 @@
           "content_code": null,
           "content_alert": {
             "type": "info",
-            "message": "Your website will be hosted in a similar url:<br> https://your-username.github.io/repository-name"
+            "message": "Your website will be hosted in a similar url:<br> https://your-username.github.io/repositoryName"
           }
         },
         {
