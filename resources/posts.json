@@ -10,7 +10,7 @@
         {
           "content_title": "Github Pages",
           "content_text": "Pages is a <strong>service</strong> to host static websites that use HTML, CSS, and JavaScript files straight from your repository on GitHub. Technically we are not able to create dynamic websites but with a little bit of magic hands we are able to do it.",
-          "content_image": ["./resources/images/post3/img_1.JPG"],
+          "content_image": ["./resources/images/post3/img_1.jpg"],
           "content_code": null,
           "content_alert": null
         },
