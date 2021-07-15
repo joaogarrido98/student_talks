@@ -69,7 +69,15 @@ function loadContent(content) {
 
     if (content.content_code != null) {
         content.content_code.forEach(element => {
-            console.log(element);
+            let language = element.language;
+            let pre_block = document.createElement("pre");
+            let code_block = document.createElement("code");
+            code_block.className = `language-${language}`;
+            code_block.innerHTML = element.code;
+            pre_block.append(code_block);
+            content_holder.append(pre_block);
         });
     }
+
+    Prism.highlightAll();
 }

@@ -8,9 +8,16 @@
       "date": "15 JUL 2021",
       "content": [
         {
-          "content_title": "Setting Up the repository",
-          "content_text": "In the next few paragraphs you will learn how to host dynamic websites on github pages for free. You won't need anything like SQL or PHP, the only technologies used here is pure HTML5, CSS, JavaScript and JSON.From now on I will assume that you have a github account created. <br> <br> As you normally do create a new repository. Give it the name you want and make it private or public. Upload an <strong>index.html</strong> page just to initiate the repository. Once created and uploaded go to <strong>settings</strong> on the side menu you will find <strong>Pages</strong>, after this you'll find the following dropdown, choose the same values and save.",
+          "content_title": "Github Pages",
+          "content_text": "Pages is a <strong>service</strong> to host static websites that use HTML, CSS, and JavaScript files straight from your repository on GitHub. Technically we are not able to create dynamic websites but with a little bit of magic hands we are able to do it.",
           "content_image": ["./resources/images/post3/img_1.JPG"],
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Setting Up the repository",
+          "content_text": "In the next few paragraphs you will learn how to host dynamic websites on github pages for free. You won't need anything like SQL or PHP, the only technologies used here is pure HTML5, CSS, JavaScript and JSON. From now on I will assume that you have a github account created. <br> <br> As you normally do create a new repository. Give it the name you want and make it private or public. Upload an <strong>index.html</strong> page just to initiate the repository. Once created and uploaded go to <strong>settings</strong> on the side menu you will find <strong>Pages</strong>, after this you'll find the following dropdown, choose the same values and save.",
+          "content_image": ["./resources/images/post3/img_2.JPG"],
           "content_code": null,
           "content_alert": {
             "type": "info",
@@ -18,10 +25,15 @@
           }
         },
         {
-          "content_title": "What now",
-          "content_text": "To be done",
+          "content_title": "Project setup",
+          "content_text": "Now create a project on your preferred editor with the usual html, css, javascript pages. I would reccomend for you to modularize the project the following way:",
           "content_image": null,
-          "content_code": null,
+          "content_code": [
+            {
+              "language": "treeview",
+              "code": "project_folder/\n|-- styles/\n|   |-- app.css\n|   |-- index.css\n|-- scripts/\n|   |-- app.js\n|   |-- index.js\n|-- resources/\n|   |-- images/\n|   |-- data.json\n|-- index.html"
+            }
+          ],
           "content_alert": null
         }
       ],

@@ -80,7 +80,7 @@ strong {
 }
 
 .alert-inner {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   padding: 20px 40px;
   word-break: break-all;
@@ -89,7 +89,7 @@ strong {
 .alert-info::before {
   content: "";
   height: 100%;
-  width: 4px;
+  width: 8px;
   position: absolute;
   background-color: #2cb661;
 }
@@ -108,6 +108,18 @@ strong {
   width: 4px;
   position: absolute;
   background-color: #dab334;
+}
+
+.copy-to-clipboard-button {
+  cursor: pointer;
+}
+
+.code-toolbar {
+  margin-top: 20px;
+}
+
+pre {
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -135,6 +147,10 @@ strong {
 
   .content_text {
     font-size: 1.3rem;
+  }
+
+  .alert-inner {
+    font-size: 1.25rem;
   }
 }
 
