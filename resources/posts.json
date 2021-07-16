@@ -31,21 +31,21 @@
           "content_title": "Project setup",
           "content_text": "Now create a project on your preferred editor with the usual html, css, javascript pages. I would recommend for you to <strong>modularize</strong> the project the following way:",
           "content_image": null,
-          "content_code": ["../resources/post3/code1.treeview"],
+          "content_code": ["./resources/post3/code1.treeview"],
           "content_alert": null
         },
         {
           "content_title": "Creating the data",
           "content_text": "For this part you will need to create a json file, this will be your \"database\". Organise the data however you see fit to your program.<br> In this example you are able to see a todo <strong>object</strong> with an <strong>id</strong>, a <strong>date</strong> and a <strong>message</strong>. We will use these three properties to show how you can build your website.",
           "content_image": null,
-          "content_code": ["../resources/post3/code2.json"],
+          "content_code": ["./resources/post3/code2.json"],
           "content_alert": null
         },
         {
           "content_title": "Fetching the data",
           "content_text": "Here you can see in the following code how to create a javascript file that will <strong>fetch</strong> that data from the json file and show it on the html page.You should already have an html page linked to a javascript file. (And yes I do use semicolons on javascript...)",
           "content_image": null,
-          "content_code": ["../resources/post3/code3.js"],
+          "content_code": ["./resources/post3/code3.js"],
           "content_alert": null
         },
         {
