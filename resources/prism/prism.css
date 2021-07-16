@@ -1,5 +1,5 @@
 /* PrismJS 1.24.1
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+csharp+css-extras+haskell+java+json+json5+jsonp+kotlin+markdown+markup-templating+mongodb+php+python+r+sass+scss+sql+swift&plugins=line-numbers+show-language+highlight-keywords+inline-color+toolbar+copy-to-clipboard+treeview */
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+aspnet+c+csharp+css-extras+csv+dart+haskell+ini+java+json+json5+jsonp+kotlin+markdown+markup-templating+mongodb+php+python+r+jsx+tsx+regex+sass+scss+sql+typescript&plugins=line-numbers+wpd+custom-class+file-highlight+show-language+jsonp-highlight+highlight-keywords+inline-color+normalize-whitespace+data-uri-highlight+toolbar+copy-to-clipboard+treeview */
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
@@ -162,6 +162,17 @@ pre[class*="language-"].line-numbers > code {
   text-align: right;
 }
 
+code[class*="language-"] a[href],
+pre[class*="language-"] a[href] {
+  cursor: help;
+  text-decoration: none;
+}
+
+code[class*="language-"] a[href]:hover,
+pre[class*="language-"] a[href]:hover {
+  cursor: help;
+  text-decoration: underline;
+}
 div.code-toolbar {
   position: relative;
 }
@@ -326,7 +337,6 @@ span.inline-color {
 }
 
 .token.treeview-part .entry-name:before {
-  color: var(--main-color);
   content: "\ea01";
   font-family: "PrismTreeview";
   font-size: inherit;
@@ -334,12 +344,12 @@ span.inline-color {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 2.5ex;
+  color: var(--main-color);
   display: inline-block;
 }
 
 .token.treeview-part .entry-name.dir:before {
   content: "\ea02";
-  color: var(--main-color);
 }
 .token.treeview-part .entry-name.ext-bmp:before,
 .token.treeview-part .entry-name.ext-eps:before,
@@ -380,7 +390,6 @@ span.inline-color {
 .token.treeview-part .entry-name.ext-php:before,
 .token.treeview-part .entry-name.ext-rb:before,
 .token.treeview-part .entry-name.ext-xml:before {
-  color: var(--main-color);
   content: "\ea07";
 }
 .token.treeview-part .entry-name.ext-7z:before,

@@ -5,6 +5,21 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("./resources/posts.json")
         .then(response => response.json())
         .then(data => findPost(data.posts, post_id));
+
+    document.addEventListener("click", e => {
+        if (e.target.matches(".content_image")) {
+            enlargeImages(e.target.src)
+        }
+    })
+
+    document.querySelector(".close").addEventListener("click", () => {
+        let modal = document.getElementById("modalImage");
+        let modalImg = document.getElementById("imageBig");
+        modal.style.display = "none";
+        modalImg.src = "";
+        const body = document.body;
+        body.style.overflow = "auto";
+    });
 });
 
 function findPost(data, post_id) {
@@ -48,6 +63,16 @@ function loadContent(content) {
     let content_holder = document.querySelector(".content")
     content_holder.append(title, text);
 
+    if (content.content_code != null) {
+        content.content_code.forEach(element => {
+            let pre_block = document.createElement("pre");
+            pre_block.setAttribute("data-src", element);
+            content_holder.append(pre_block);
+        });
+    }
+
+    Prism.highlightAll();
+
     let img = document.createElement("img");
     if (content.content_image != null) {
         content.content_image.forEach(element => {
@@ -66,18 +91,13 @@ function loadContent(content) {
         alert.innerHTML = "<div class='alert-inner'>" + message + "</div>";
         content_holder.append(alert)
     }
+}
 
-    if (content.content_code != null) {
-        content.content_code.forEach(element => {
-            let language = element.language;
-            let pre_block = document.createElement("pre");
-            let code_block = document.createElement("code");
-            code_block.className = `language-${language}`;
-            code_block.innerHTML = element.code;
-            pre_block.append(code_block);
-            content_holder.append(pre_block);
-        });
-    }
-
-    Prism.highlightAll();
+function enlargeImages(image) {
+    const body = document.body;
+    body.style.overflow = "hidden";
+    let modal = document.getElementById("modalImage");
+    let modalImg = document.getElementById("imageBig");
+    modalImg.src = image;
+    modal.style.display = "flex";
 }

@@ -3,21 +3,24 @@
     {
       "post_id": 3,
       "title": "Hosting on github",
-      "short-description": "Many of us programmers enjoy to do our own little projects to ourselves and sometimes we just need to host these projects somewhere, here's how.",
+      "short-description": "Many of us programmers enjoy doing our own little projects to ourselves and sometimes we just need to host these projects somewhere, here's how.",
       "year": 2021,
       "date": "15 JUL 2021",
       "content": [
         {
           "content_title": "Github Pages",
-          "content_text": "Pages is a <strong>service</strong> to host static websites that use HTML, CSS, and JavaScript files straight from your repository on GitHub. Technically we are not able to create dynamic websites but with a little bit of magic hands we are able to do it.",
-          "content_image": ["./resources/images/post3/img_1.JPG"],
+          "content_text": "Pages is a <strong>service</strong> to host static websites that use HTML, CSS, and JavaScript files straight from your repository on GitHub. Technically we are not able to create dynamic websites but with a little bit of magic hands we are able to do it.<br><br>In the next few paragraphs you will learn how to host <strong>dynamic</strong> websites on github pages for free. You won't need anything like SQL or PHP, the only technologies used here is pure HTML, CSS, JavaScript and JSON.",
+          "content_image": ["./resources/post3/img_1.JPG"],
           "content_code": null,
-          "content_alert": null
+          "content_alert": {
+            "type": "warning",
+            "message": "In my experience pages should only be used in case of a small easy maintainable website due to the data being stored on a json file."
+          }
         },
         {
           "content_title": "Setting Up the repository",
-          "content_text": "In the next few paragraphs you will learn how to host dynamic websites on github pages for free. You won't need anything like SQL or PHP, the only technologies used here is pure HTML5, CSS, JavaScript and JSON. From now on I will assume that you have a github account created. <br> <br> As you normally do create a new repository. Give it the name you want and make it private or public. Upload an <strong>index.html</strong> page just to initiate the repository. Once created and uploaded go to <strong>settings</strong> on the side menu you will find <strong>Pages</strong>, after this you'll find the following dropdown, choose the same values and save.",
-          "content_image": ["./resources/images/post3/img_2.jpg"],
+          "content_text": "As you normally do create a new repository. Give it the name you want and make it private or public. Upload an <strong>index.html</strong> page just to initiate the repository. Once created and uploaded go to <strong>settings</strong> on the side menu you will find <strong>Pages</strong>, after this you'll find the following dropdown, choose the same values and save.",
+          "content_image": ["./resources/post3/img_2.jpg"],
           "content_code": null,
           "content_alert": {
             "type": "info",
@@ -26,20 +29,46 @@
         },
         {
           "content_title": "Project setup",
-          "content_text": "Now create a project on your preferred editor with the usual html, css, javascript pages. I would reccomend for you to modularize the project the following way:",
+          "content_text": "Now create a project on your preferred editor with the usual html, css, javascript pages. I would recommend for you to <strong>modularize</strong> the project the following way:",
           "content_image": null,
-          "content_code": [
-            {
-              "language": "treeview",
-              "code": "project_folder/\n|-- styles/\n|   |-- app.css\n|   |-- index.css\n|-- scripts/\n|   |-- app.js\n|   |-- index.js\n|-- resources/\n|   |-- images/\n|   |-- data.json\n|-- index.html"
-            }
-          ],
+          "content_code": ["../resources/post3/code1.treeview"],
           "content_alert": null
+        },
+        {
+          "content_title": "Creating the data",
+          "content_text": "For this part you will need to create a json file, this will be your \"database\". Organise the data however you see fit to your program.<br> In this example you are able to see a todo <strong>object</strong> with an <strong>id</strong>, a <strong>date</strong> and a <strong>message</strong>. We will use these three properties to show how you can build your website.",
+          "content_image": null,
+          "content_code": ["../resources/post3/code2.json"],
+          "content_alert": null
+        },
+        {
+          "content_title": "Fetching the data",
+          "content_text": "Here you can see in the following code how to create a javascript file that will <strong>fetch</strong> that data from the json file and show it on the html page.You should already have an html page linked to a javascript file. (And yes I do use semicolons on javascript...)",
+          "content_image": null,
+          "content_code": ["../resources/post3/code3.js"],
+          "content_alert": null
+        },
+        {
+          "content_title": "Final result",
+          "content_text": "If you followed all the parts correctly you will be able to see the page that follows:",
+          "content_image": ["./resources/post3/img_3.JPG"],
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Ending",
+          "content_text": "I hope you found this tutorial easy to follow, if you have any doubts to hesitate to contact me through the channels displayed on the footer.",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": {
+            "type": "info",
+            "message": "If you need to read more about pages go to <a href='https://docs.github.com/en/pages'>https://docs.github.com/en/pages</a>"
+          }
         }
       ],
       "video": null,
       "tags": ["Hosting", "Github", "Web Dev", "JavaScript", "html", "css"],
-      "preview": "./resources/images/post3/img_3_preview.jpg"
+      "preview": "./resources/post3/img_3_preview.jpg"
     },
     {
       "post_id": 2,
@@ -72,7 +101,7 @@
       ],
       "video": null,
       "tags": ["Learning", "Letter"],
-      "preview": "./resources/images/post2/img_2_preview.jpg"
+      "preview": "./resources/post2/img_2_preview.jpg"
     },
     {
       "post_id": 1,
@@ -84,7 +113,7 @@
         {
           "content_title": "Hello",
           "content_text": "My name is João Garrido and im currently a second year computer science student at the University of Liverpool, with this blog I want to give everyone reading a way to see the world of programming and technology through the eyes of a student and the eyes of someone who hasn't started the \"real\" life yet.",
-          "content_image": ["./resources/images/post1/myself.jpg"],
+          "content_image": ["./resources/post1/myself.jpg"],
           "content_code": null,
           "content_alert": null
         },
@@ -105,7 +134,7 @@
       ],
       "video": null,
       "tags": ["About-Us", "First"],
-      "preview": "./resources/images/post1/img_1_preview.jpg"
+      "preview": "./resources/post1/img_1_preview.jpg"
     }
   ]
 }

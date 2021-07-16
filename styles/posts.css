@@ -42,6 +42,7 @@ h1 {
 .sub-info {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .sub-info span {
@@ -103,5 +104,11 @@ h1 {
 
   .posts-container {
     margin-top: 7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .posts-container li {
+    max-width: 80%;
   }
 }

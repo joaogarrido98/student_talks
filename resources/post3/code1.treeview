@@ -1,0 +1,11 @@
+project_folder/
+|-- styles/
+|   |-- app.css
+|   |-- index.css
+|-- scripts/
+|   |-- app.js
+|   |-- index.js
+|-- resources/
+|   |-- images/
+|   |-- data.json
+|-- index.html
