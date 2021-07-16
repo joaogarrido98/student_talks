@@ -62,7 +62,7 @@
           "content_code": null,
           "content_alert": {
             "type": "info",
-            "message": "If you need to read more about pages go to <a href='https://docs.github.com/en/pages'>https://docs.github.com/en/pages</a>"
+            "message": "If you need to read more about pages go to <a target='_blank' href='https://docs.github.com/en/pages'>https://docs.github.com/en/pages</a>"
           }
         }
       ],
