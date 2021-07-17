@@ -4,6 +4,7 @@ main {
   display: flex;
   flex: 1 0 auto;
   text-align: center;
+  max-width: 100%;
 }
 
 .post-container {
@@ -127,7 +128,6 @@ strong {
 
 pre {
   overflow-x: auto;
-  display: block;
   border-radius: 10px;
 }
 
