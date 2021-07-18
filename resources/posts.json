@@ -50,7 +50,7 @@
         },
         {
           "content_title": "Final result",
-          "content_text": "If you followed all the parts correctly you will be able to see the page that follows:",
+          "content_text": "So now that everything is coded just upload the files to github and if you followed all the parts correctly you will be able to see the page that follows:",
           "content_image": ["./resources/post3/img_3.JPG"],
           "content_code": null,
           "content_alert": null
