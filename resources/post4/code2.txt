@@ -1,0 +1,5 @@
+comment SMTP=localhost by putting semicolon behind => ;SMTP=localhost
+
+comment smtp_port=25 by putting semicolon behind => ;smtp_port=25
+
+be sure if your path is correct => example: sendmail_path = C:\xampp\sendmail\sendmail.exe

@@ -1,6 +1,61 @@
 {
   "posts": [
     {
+      "post_id": 4,
+      "title": "Xampp & PHP email",
+      "short-description": "Setting the xampp apache server to send emails through PHP and Google SMTP.",
+      "year": 2021,
+      "date": "25 JUL 2021",
+      "content": [
+        {
+          "content_title": "XAMPP",
+          "content_text": "XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the <strong>Apache HTTP Server</strong>, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.",
+          "content_image": ["./resources/post4/img1.jpg"],
+          "content_code": null,
+          "content_alert": {
+            "type": "danger",
+            "message": "Before doing any changes to the files please save the original files in case something goes wrong."
+          }
+        },
+        {
+          "content_title": "Finding the files",
+          "content_text": "To configure a XAMPP server to send emails  we have to make changes to the files sendmail.ini and php.ini. These are found inside the folders <strong>php</strong> and <strong>sendmail</strong>.",
+          "content_image": [
+            "./resources/post4/img_3.jpg",
+            "./resources/post4/img_2.jpg"
+          ],
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Sendmail.ini",
+          "content_text": "Open the file <strong>sendmail.ini</strong> in a text editor and there you will find a few things to change.",
+          "content_image": null,
+          "content_code": ["./resources/post4/code1.txt"],
+          "content_alert": null
+        },
+        {
+          "content_title": "Php.ini",
+          "content_text": "Open the file <strong>php.ini</strong> in a text editor and there you will find a few things to change.",
+          "content_image": null,
+          "content_code": ["./resources/post4/code2.txt"],
+          "content_alert": {
+            "type": "warning",
+            "message": "Be sure to activate access to less secure webapp on your gmail account."
+          }
+        },
+        {
+          "content_title": "Testing",
+          "content_text": "After completing all the steps above it's time to try sending an email using PHP. Just create a simple website with a form and on submit sends the email.",
+          "content_image": null,
+          "content_code": ["./resources/post4/code3.php"],
+          "content_alert": null
+        }
+      ],
+      "tags": ["PHP", "Xampp", "Email"],
+      "preview": "./resources/post4/img_4_preview.jpg"
+    },
+    {
       "post_id": 3,
       "title": "Hosting on github",
       "short-description": "Many of us programmers enjoy doing our own little projects to ourselves and sometimes we just need to host these projects somewhere, here's how.",
@@ -66,7 +121,6 @@
           }
         }
       ],
-      "video": null,
       "tags": ["Hosting", "Github", "Web Dev", "JavaScript", "html", "css"],
       "preview": "./resources/post3/img_3_preview.jpg"
     },
@@ -99,7 +153,6 @@
           "content_alert": null
         }
       ],
-      "video": null,
       "tags": ["Learning", "Letter"],
       "preview": "./resources/post2/img_2_preview.jpg"
     },
@@ -132,7 +185,6 @@
           "content_alert": null
         }
       ],
-      "video": null,
       "tags": ["About-Us", "First"],
       "preview": "./resources/post1/img_1_preview.jpg"
     }

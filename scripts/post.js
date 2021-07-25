@@ -73,9 +73,9 @@ function loadContent(content) {
 
     Prism.highlightAll();
 
-    let img = document.createElement("img");
     if (content.content_image != null) {
         content.content_image.forEach(element => {
+            let img = document.createElement("img");
             img.src = element;
             img.classList.add("content_image");
             content_holder.append(img);

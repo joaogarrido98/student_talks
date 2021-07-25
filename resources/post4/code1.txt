@@ -1,0 +1,11 @@
+uncomment => smtp_server=mail.yourdomain.com
+
+change to => smtp_server=smtp.gmail.com
+
+smtp_port change to => smtp_port=587
+
+auth_username change to => auth_username=youremail@gmail.com
+
+auth_password change to => auth_password=yourpassword
+
+force_sender change to => youremail@gmail.com
