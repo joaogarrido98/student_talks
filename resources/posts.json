@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "post_id": 5,
+      "title": "Storing Images on a Server",
+      "short-description": "The way to go about uploading and storing images on a database (without making it ridiculously slow) for later use.",
+      "year": 2021,
+      "date": "10 AUG 2021",
+      "content": [
+        {
+          "content_title": "Uploading Images",
+          "content_text": "Many new programmers face, at some point, the challenge of uploading images to a server and as me they immediately think of just uploading the image to the database as a blob and that's it, job <strong>DONE</strong>.<br>Well I learnt my mistake a few years ago and I'm here to teach you a new and improved way of doing it, the way I use on my projects.",
+          "content_image": ["./resources/post5/img_1.jpg"],
+          "content_code": null,
+          "content_alert": {
+            "type": "warning",
+            "message": "This post is just a walkthrough how you should do it and not a programming tutorial, I will eventually have a post on how to upload to database with kotlin and ktor."
+          }
+        },
+        {
+          "content_title": "Where do we store them?",
+          "content_text": "Well as you might have guessed we would store them in the <strong>filesystem</strong> of the server instead of the database. After storing it on the filesystem you just grab the <strong>path</strong> to the image and insert it to the database. Whenever you need the image you would just get the path and load it from there.",
+          "content_image": ["./resources/post5/img_2.jpg"],
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "The flow of storing",
+          "content_text": "This seems like a hard concept to grasp because then we leave the app with two different components that work together to have a full functionality, the upload to the filesystem and the insert on the database.<br>Here comes the flow of the program, what  I usually do is when the user chooses a image from his phone or pc the program starts the upload while the user keeps doing other things (like inputing username, password, etc..) and when it's done everything should just go smoothly.",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Possible Errors",
+          "content_text": "A frequent \"error\" with this approach is that if a user decides to cancel what your app does while the app is uploading the image you end up with a lost image on your server for no use.<br> Something you can do is just coding a script that cleans the server once in a while for images with no use.",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": null
+        }
+      ],
+      "tags": ["Images", "Database", "Good-Practices"],
+      "preview": "./resources/post5/img_5_preview.jpg"
+    },
+    {
       "post_id": 4,
       "title": "Xampp & PHP email",
       "short-description": "Most programs have a tool to send emails this is how you can set a xampp apache server to send emails through PHP and Google SMTP.",
