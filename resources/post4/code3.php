@@ -9,7 +9,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= 'Content-Transfer-Encoding: 8bit' . "\r\n";
 $headers .= 'From: ' . $name. "\r\n" . 'Reply-To: ' . $email . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 
-$to = "greenhelpdigital@gmail.com";
+$to = "youremail@email.com";
 $subject = "Contact Client: " . $name;
 
 mail($to, $subject, $messages, $headers);
