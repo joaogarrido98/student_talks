@@ -99,7 +99,7 @@ main {
 .post-wrapper {
   display: block;
   height: 100%;
-  min-height: 50vh;
+  min-height:350vh;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -213,7 +213,7 @@ main {
   letter-spacing: 1px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .post-description {
     bottom: 0;
     opacity: 1;
