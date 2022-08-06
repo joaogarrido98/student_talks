@@ -24,9 +24,9 @@ function createItem(posts, ul) {
     li.innerHTML =
         `<a href='${url}' class='post-item'>
         <div class='post-wrapper'>
+            <img class='background-images' src='${posts["preview"]}' alt='background image'/>
             <div class='post-inner'>
-                <img class='background-images' src='${posts["preview"]}' alt='background image'/>
-                <div class='overlay'></div> 
+                <div class='overlay'></div>
                     <p class='post-link'>
                         <span class='post-title'>${posts['title']}</span>
                     </p>
