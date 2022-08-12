@@ -1,11 +1,32 @@
 {
   "posts": [
+     {
+      "post_id": 6,
+      "title": "Greedy Money",
+      "short-description": "A view into the greedy algorithm and an implementation of cash returns.",
+      "year": 2022,
+      "date": "12 MAR 2022",
+      "content": [
+        {
+          "content_title": "Algorithms",
+          "content_text": "To start this post i'm going to dive right into algorithms as a concept. Algorithms are just just a series of steps to achieve a task in a finite time. In algorithm analysis we care about <strong>running time</strong> (time complexity) and <strong>memory</strong> (space complexity). There are multiple types of algorithms in software development like <strong>Divide and conquer</strong>,  <strong>Dynamic Programming</strong> and the one we wil be discussing on this post  <strong>Greedy</strong>",
+          "content_image": ["./resources/post6/img1.jpg"],
+          "content_code": null,
+          "content_alert": {
+            "type": "danger",
+            "message": "Before doing any changes to the files please save the original files in case something goes wrong."
+          }
+        }
+      ],
+      "tags": ["Greedy", "Code", "Algorithms"],
+      "preview": "./resources/post6/img_6_preview.jpg"
+    },
     {
       "post_id": 5,
       "title": "Storing Images on a Server",
       "short-description": "The way to go about uploading and storing images on a database (without making it ridiculously slow) for later use.",
-      "year": 2021,
-      "date": "10 AUG 2021",
+      "year": 2022,
+      "date": "03 FEB 2022",
       "content": [
         {
           "content_title": "Uploading Images",
