@@ -9,13 +9,17 @@
       "content": [
         {
           "content_title": "Algorithms",
-          "content_text": "To start this post i'm going to dive right into algorithms as a concept. Algorithms are just just a series of steps to achieve a task in a finite time. In algorithm analysis we care about <strong>running time</strong> (time complexity) and <strong>memory</strong> (space complexity). There are multiple types of algorithms in software development like <strong>Divide and conquer</strong>,  <strong>Dynamic Programming</strong> and the one we wil be discussing on this post  <strong>Greedy</strong>",
+          "content_text": "To start this post i'm going to dive right into algorithms as a concept. Algorithms are just just a series of steps to achieve a task in a finite time. In algorithm analysis we care about <strong>running time</strong> (time complexity) and <strong>memory</strong> (space complexity). There are multiple types of algorithms in software development like <strong>Divide and conquer</strong>,  <strong>Dynamic Programming</strong> and the one we wil be discussing on this post  <strong>Greedy</strong>.",
           "content_image": ["./resources/post6/img1.jpg"],
           "content_code": null,
-          "content_alert": {
-            "type": "danger",
-            "message": "Before doing any changes to the files please save the original files in case something goes wrong."
-          }
+          "content_alert": null
+        },
+        {
+          "content_title": "Greedy",
+          "content_text": "An optimization problem searches for a strategy that <strong>minimizes</strong> or <strong>maximizes</strong> some goal. The greedy method solves a specific optimization problem by going through a sequence of choices. The sequence starts on very well defined starting point, and then iteratively makes the choice that seems best from all the ones that are currently available. We can solve many problems with this algorithm, like <strong>Task Scheduling</strong>, <strong>Fractional Knapsack Problem</strong> and <strong>Change making</strong>.",
+          "content_image": null,
+          "content_code":  ["./resources/post6/code1.kt"],
+          "content_alert": null
         }
       ],
       "tags": ["Greedy", "Code", "Algorithms"],
