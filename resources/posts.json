@@ -23,12 +23,12 @@
           "content_code": null,
           "content_alert": {
             "type": "warning",
-            "message": "The greedy approach does not always lead to an optimal solution."
+            "message": "The greedy algorithm does not always return the optimal solution. We will discuss this situation bellow."
           }
         },
         {
           "content_title": "Change Making Problem",
-          "content_text": "",
+          "content_text": "The change making problem asks us to return the minimum amount of coins to make the full change. For example assuming that there are four denominations of currency of coins with values 25, 10, 5, 1.The general idea of the algorithm that solves this is extremely easy to understand, we simply go to the coin with the highest denomination (in this case 25) and we greedly remove all the 25's we possible can from a given change and we then continue to 10 and the rest until we get 0.",
           "content_image": "",
           "content_code": [
             "./resources/post6/code1.kt"
