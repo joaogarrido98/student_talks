@@ -28,12 +28,15 @@
         },
         {
           "content_title": "Change Making Problem",
-          "content_text": "The change making problem asks us to return the minimum amount of coins to make the full change. For example assuming that there are four denominations of currency of coins with values 25, 10, 5, 1.The general idea of the algorithm that solves this is extremely easy to understand, we simply go to the coin with the highest denomination (in this case 25) and we greedly remove all the 25's we possible can from a given change and we then continue to 10 and the rest until we get 0.",
+          "content_text": "The change making problem asks us to return the <strong>minimum</strong> amount of coins to make the full change. For example assuming that there are four denominations of currency of coins with values 25, 10, 5, 1. The general idea of the algorithm that solves this is extremely easy to understand, we simply go to the coin with the highest denomination (in this case 25) and we greedly remove all the 25's we possible can from a given change and we then continue to 10 and the rest until we get 0.",
           "content_image": null,
           "content_code": [
             "./resources/post6/code1.kt"
           ],
-          "content_alert": null
+          "content_alert": {
+            "type": "danger",
+            "message": "Circling back to when I said not all cases of this problem are solved by this greedy algorithm. If we now had the coins 7, 5, 1 it would create a massive problem for this algorithm. Example: We have change of 10 and we have this coins the algorithm would take 7 - 1 - 1 - 1 which is 4 coins total whilst the best solution in this case would be 5 - 5 which is 2 coins."
+          }
         }
       ],
       "tags": [
