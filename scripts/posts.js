@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+//for each post in posts fetched call the create item method
+//that puts an item in the posts list with the data
 function loadData(data) {
     document.querySelector("#total-posts").textContent = data.posts.length + " Blog Posts";
-
     let ul = document.querySelector(".posts");
     ul.innerText = "";
     for (let i = 0; i < data.posts.length; i++) {
@@ -15,6 +16,7 @@ function loadData(data) {
     }
 }
 
+//create a li item with all the data from a post and add it to the list
 function createItem(posts, ul) {
     let url = "https://joaogarrido98.github.io/student_talks/post.html?id=" + posts["post_id"];
     let li = document.createElement("li");

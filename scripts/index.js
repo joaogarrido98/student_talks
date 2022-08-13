@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+//for each post in posts fetched call the create item method
+//that puts an item in the posts list with the data maximum of 6 posts
 function loadData(posts) {
     let ul = document.querySelector(".posts-list");
     for (let i = 0; i < 6; i++) {
@@ -12,7 +15,7 @@ function loadData(posts) {
     }
 }
 
-
+//create a li item with all the data from a post and add it to the list
 function createItem(posts, ul) {
     let url = "https://joaogarrido98.github.io/student_talks/post.html?id=" + posts["post_id"];
     let li = document.createElement("li");
