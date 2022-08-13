@@ -9,7 +9,7 @@
       "content": [
         {
           "content_title": "Multithreading",
-          "content_text": "Multithreading is a type of program execution that enables multiple threads to be used in a process, executing a task alone but concurrently sharing the cpu  resources. This saves time because we can perform multiple tasks at the same time. The threads are independent, so it does not block the user and also, if an exception occurs in a single thread, it does not have consequences in other threads. At the sema time that the shelf dictates a maximum of 5 plants till it's full.",
+          "content_text": "Multithreading is a type of program execution that enables <strong>multiple threads</strong> to be used in a process, executing a task alone but <strong>concurrently</strong> sharing the cpu  resources. This saves time because we can perform multiple tasks at the same time. The threads are <strong>independent</strong>, so it does <strong>not block</strong> the user and also, if an exception occurs in a single thread, it does not have consequences in other threads.",
           "content_image": [
             "./resources/post7/img1.jpg"
           ],
@@ -18,7 +18,7 @@
         },
         {
           "content_title": "Packers and Potters",
-          "content_text": "The Packers and Potters example goes as follow, we have a shelf to store plants and we have two Potters(make the plants) and one Packer(packs the plants), the goal is to use different threads for the different packers and potters so they can put and take the plants from the shelf all concurrently. ",
+          "content_text": "The Packers and Potters example goes as follow, we have a shelf to store plants and we have two Potters(make the plants) and one Packer(packs the plants), the goal is to use different threads for the different packers and potters so they can put and take the plants from the shelf all concurrently. At the same time that the shelf dictates a maximum of 5 plants till it's full.",
           "content_image": [
             "./resources/post7/img2.jpg"
           ],
