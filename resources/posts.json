@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "post_id": 7,
+      "title": "Potters and Packers",
+      "short-description": "A brief explanation of multithreading in java",
+      "year": 2022,
+      "date": "10 AUG 2022",
+      "content": [
+        {
+          "content_title": "Multithreading",
+          "content_text": "",
+          "content_image": [
+            "./resources/post7/img1.jpg"
+          ],
+          "content_code": null,
+          "content_alert": null
+        }
+      ]
+    },
+    {
       "post_id": 6,
       "title": "Greedy Money",
       "short-description": "A view into the greedy algorithm and an implementation of cash returns.",
@@ -40,11 +58,12 @@
         }
       ],
       "tags": [
-        "Greedy",
-        "Code",
-        "Algorithms"
+        "Java",
+        "Threads",
+        "Multithreading",
+        "Synchronized"
       ],
-      "preview": "./resources/post6/img_6_preview.jpg"
+      "preview": "./resources/post7/img_7_preview.jpg"
     },
     {
       "post_id": 5,
