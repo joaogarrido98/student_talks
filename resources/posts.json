@@ -32,10 +32,21 @@
           "content_code": [
             "./resources/post7/packers.java",
             "./resources/post7/potters.java",
-            "./resources/post7/shelf.java",
-            "./resources/post7/Main.java"
+            "./resources/post7/shelf.java"
           ],
           "content_alert": null
+        },
+        {
+          "content_title": "Watching the Magic",
+          "content_text": "Here you can see how to actually run the threads. Just run all your code in your machine and check the output",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/Main.java"
+          ],
+          "content_alert": {
+            "type": "warning",
+            "message": "Don't forget to get all the classes you need and compile them using javac. E.g: javac Main.java and run using java Main."
+          }
         }
       ],
       "tags": [
