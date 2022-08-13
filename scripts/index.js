@@ -6,12 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function loadData(posts) {
-    let totalPosts = posts.length;
-    if (totalPosts >= 10) {
-        totalPosts = 10;
-    }
     let ul = document.querySelector(".posts-list");
-    for (let i = 0; i < totalPosts; i++) {
+    for (let i = 0; i < 6; i++) {
         createItem(posts[i], ul);
     }
 }

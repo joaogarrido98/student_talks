@@ -3,16 +3,30 @@
     {
       "post_id": 7,
       "title": "Potters and Packers",
-      "short-description": "A brief explanation of multithreading in java",
+      "short-description": "A brief explanation of multithreading in java using the potters and packers example.",
       "year": 2022,
       "date": "10 AUG 2022",
       "content": [
         {
           "content_title": "Multithreading",
-          "content_text": "",
+          "content_text": "What is multithreading?",
           "content_image": [
             "./resources/post7/img1.jpg"
           ],
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Packers and Potters",
+          "content_text": "What is this?",
+          "content_image": null,
+          "content_code": null,
+          "content_alert": null
+        },
+        {
+          "content_title": "Coding",
+          "content_text": "code",
+          "content_image": null,
           "content_code": null,
           "content_alert": null
         }
