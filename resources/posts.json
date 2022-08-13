@@ -16,7 +16,14 @@
           "content_code": null,
           "content_alert": null
         }
-      ]
+      ],
+      "tags": [
+        "Java",
+        "Threads",
+        "Multithreading",
+        "Synchronized"
+      ],
+      "preview": "./resources/post7/img_7_preview.jpg"
     },
     {
       "post_id": 6,
@@ -58,12 +65,11 @@
         }
       ],
       "tags": [
-        "Java",
-        "Threads",
-        "Multithreading",
-        "Synchronized"
+        "Greedy",
+        "Code",
+        "Algorithms"
       ],
-      "preview": "./resources/post7/img_7_preview.jpg"
+      "preview": "./resources/post6/img_6_preview.jpg"
     },
     {
       "post_id": 5,
