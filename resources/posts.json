@@ -26,6 +26,24 @@
           "content_alert": null
         },
         {
+          "content_title": "The classes",
+          "content_text": "Here you can see the <strong>Classes</strong> designed to create the Potters and Packers objects. Taking a closer look we have the method <strong>run</strong> that executes once the objected created by the class is called to <strong>start()</strong>",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/packers.java"
+          ],
+          "content_alert": null
+        },
+        {
+          "content_title": null,
+          "content_text": "Continuing for the Potter",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/potters.java"
+          ],
+          "content_alert": null
+        },
+        {
           "content_title": "Coding",
           "content_text": "In this section i'm gonna show you",
           "content_image": null,

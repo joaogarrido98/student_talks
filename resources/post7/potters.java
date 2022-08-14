@@ -9,7 +9,7 @@ class Potters extends Thread {
     /**
      * load name/rate/shelf into variables so we can use later
      * @param sh   Shelf object
-     * @param time int value for how long it takes to make a pot
+     * @param time int value for how long it takes to make a plant
      * @param n    String value to assign a name to the potter
      */
     public Potters(Shelf sh, int time, String n) {
@@ -18,19 +18,19 @@ class Potters extends Thread {
         this.name = n;
     }
 
-    // method that makes potter make pots
+    // method that makes potter make plants
     // calls runable of java Thread
     public void run() {
         System.out.println(name + " has started");
-        // while potter doesn't make 10 pots keep making them
+        // while potter doesn't make 10 plants keep making them
         while (count <= 10) {
             try {
-                System.out.println(name + " is making a pot");
+                System.out.println(name + " is making a plant");
                 sleep(rate);
             } catch (InterruptedException e) { e.printStackTrace(); }
-            // after the "n minutes" put a pot in the shelf
+            // after the "n minutes" put a plant in the shelf
             shelf.insert();
-            System.out.println(name + " has put a pot on the shelf");
+            System.out.println(name + " has put a plant on the shelf");
             count++;
         }
     }
