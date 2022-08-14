@@ -47,12 +47,10 @@
           }
         },
         {
-          "content_title": "Coding",
-          "content_text": "In this section i'm gonna show you",
+          "content_title": null,
+          "content_text": "Looking only at the following code of the Shelf class we can observe that while the Potter doesn't pack all 10 plants he needs to, he keeps inserting to the shelf.",
           "content_image": null,
           "content_code": [
-            "./resources/post7/packers.java",
-            "./resources/post7/potters.java",
             "./resources/post7/shelf.java"
           ],
           "content_alert": null
