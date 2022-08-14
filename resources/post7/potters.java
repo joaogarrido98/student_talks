@@ -1,6 +1,6 @@
 //class potters that extends Thread class
 class Potters extends Thread {
-    //representes the shelf 
+    //represents the shelf 
     private Shelf shelf;
     private int rate;
     private String name;
@@ -26,6 +26,7 @@ class Potters extends Thread {
         while (count <= 10) {
             try {
                 System.out.println(name + " is making a plant");
+                //we use sleep to create a sense of time that takes to make a plant
                 sleep(rate);
             } catch (InterruptedException e) { e.printStackTrace(); }
             // after the "n minutes" put a plant in the shelf

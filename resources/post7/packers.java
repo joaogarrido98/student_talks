@@ -17,6 +17,7 @@ class Packer extends Thread {
         while (count <= 20) {
             try {
                 System.out.println("Hagrid is ready to pack");
+                //we use sleep 400 to create a sense of time that takes to pack a plant
                 sleep(400);
             } catch (InterruptedException e) { e.printStackTrace(); }
             // after the "4 minutes" put a plant in the shelf
