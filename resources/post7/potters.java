@@ -1,7 +1,8 @@
 //class potters that extends Thread class
 class Potters extends Thread {
-    //represents the shelf 
+    //represents the shelf
     private Shelf shelf;
+    //class properties
     private int rate;
     private String name;
     private int count = 1;

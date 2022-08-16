@@ -1,4 +1,6 @@
+//class potters that extends Thread class
 class Packer extends Thread {
+    //represents the shelf 
     private Shelf shelf;
     private int count = 1;
 
@@ -11,6 +13,7 @@ class Packer extends Thread {
     }
 
     // method that makes packers pack plants
+    // calls runable of java Thread
     public void run() {
         System.out.println("Hagrid has started");
         // while packer doesn't pack 20 plants keep packing them

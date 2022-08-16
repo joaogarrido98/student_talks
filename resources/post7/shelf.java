@@ -1,4 +1,5 @@
 class Shelf {
+    //volatile 
     private volatile int plants = 0;
 
     // while shelf is equal to 5 (max storage) wait

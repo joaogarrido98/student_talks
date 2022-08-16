@@ -27,7 +27,7 @@
         },
         {
           "content_title": "The classes",
-          "content_text": "Here you can see the <strong>Classes</strong> designed to create the Potters and Packers objects. Taking a closer look, in both classes we have the method <strong>run()</strong> that executes once the objected created by the class is called to <strong>start()</strong>.<br>Looking only at the following code of the Packer class we can observe that while the Packer doesn't pack all 20 plants he needs to, he keeps removing from the shelf. ",
+          "content_text": "Here you can see the <strong>Classes</strong> designed to create the Potters and Packers objects. Taking a closer look, in both classes we have the method <strong>run()</strong> that executes once the objected created by the class is called to <strong>start()</strong>.",
           "content_image": null,
           "content_code": [
             "./resources/post7/packers.java"
@@ -36,7 +36,43 @@
         },
         {
           "content_title": null,
-          "content_text": "Looking only at the following code of the Potter class we can observe that while the Potter doesn't pack all 10 plants he needs to, he keeps inserting to the shelf.",
+          "content_text": "Looking only at the following code of the <strong>Shelf class</strong> we can observe two different methods the <strong>insert()</strong> and the <strong>remove()</strong> methods",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/shelf.java"
+          ],
+          "content_alert": null
+        },
+        {
+          "content_title": "Insert",
+          "content_text": "This is the implementation of the <strong>insert()</strong> method",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/shelf.java"
+          ],
+          "content_alert": null
+        },
+        {
+          "content_title": "Remove",
+          "content_text": "Looking only at the following code of the <strong>Shelf class</strong> we can observe two different methods the <strong>insert()</strong> and the <strong>remove()</strong> methods",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/shelf.java"
+          ],
+          "content_alert": null
+        },
+        {
+          "content_title": null,
+          "content_text": "<br>Looking only at the following code of the <strong>Packer class</strong> we can observe that while the Packer doesn't pack all 20 plants he needs to, he keeps removing from the shelf.",
+          "content_image": null,
+          "content_code": [
+            "./resources/post7/packers.java"
+          ],
+          "content_alert": null
+        },
+        {
+          "content_title": null,
+          "content_text": "Looking only at the following code of the <strong>Potter class</strong> we can observe that while the Potter doesn't pack all 10 plants he needs to, he keeps inserting to the shelf.",
           "content_image": null,
           "content_code": [
             "./resources/post7/potters.java"
@@ -45,15 +81,6 @@
             "type": "info",
             "message": "The rate is just so we can create a sense of different people adding to the shelf with different rates."
           }
-        },
-        {
-          "content_title": null,
-          "content_text": "Looking only at the following code of the Shelf class we can observe that while the Potter doesn't pack all 10 plants he needs to, he keeps inserting to the shelf.",
-          "content_image": null,
-          "content_code": [
-            "./resources/post7/shelf.java"
-          ],
-          "content_alert": null
         },
         {
           "content_title": "Watching the Magic",
