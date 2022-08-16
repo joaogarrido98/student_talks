@@ -27,16 +27,14 @@
         },
         {
           "content_title": "The classes",
-          "content_text": "Here you can see the <strong>Classes</strong> designed to create the Potters and Packers objects. Taking a closer look, in both classes we have the method <strong>run()</strong> that executes once the objected created by the class is called to <strong>start()</strong>.",
+          "content_text": "Here you can see the <strong>Classes</strong> designed to create the Potters and Packers program.",
           "content_image": null,
-          "content_code": [
-            "./resources/post7/packers.java"
-          ],
+          "content_code": null,
           "content_alert": null
         },
         {
           "content_title": null,
-          "content_text": "Looking only at the following code of the <strong>Shelf class</strong> we can observe two different methods the <strong>insert()</strong> and the <strong>remove()</strong> methods",
+          "content_text": "Looking at the following section of the <strong>Shelf class</strong> we can observe two different methods the <strong>insert()</strong> and the <strong>remove()</strong> methods.",
           "content_image": null,
           "content_code": [
             "./resources/post7/shelf.java"
@@ -45,21 +43,24 @@
         },
         {
           "content_title": "Insert",
-          "content_text": "This is the implementation of the <strong>insert()</strong> method",
+          "content_text": "This is the implementation of the <strong>insert()</strong> method, here we have a while loop that keeps verifying if the plants on the shelf are less than 5, if yes then we add one more plant to the shelf, if not we wait until the plants are less.",
           "content_image": null,
           "content_code": [
-            "./resources/post7/shelf.java"
+            "./resources/post7/insert.java"
           ],
           "content_alert": null
         },
         {
           "content_title": "Remove",
-          "content_text": "Looking only at the following code of the <strong>Shelf class</strong> we can observe two different methods the <strong>insert()</strong> and the <strong>remove()</strong> methods",
+          "content_text": "This is the implementation of the <strong>remove()</strong> method, here we have a while loop that keeps verifying if the plants on the shelf are more than 0, if yes then we remove one plant from the shelf, if it's 0 we wait until the shelf has more plants to be removed.",
           "content_image": null,
           "content_code": [
-            "./resources/post7/shelf.java"
+            "./resources/post7/remove.java"
           ],
-          "content_alert": null
+          "content_alert": {
+            "type": "info",
+            "message": "The <strong>wait()</strong> methods stops the thread until another thread call the method <strong>notifyAll()</strong>."
+          }
         },
         {
           "content_title": null,
@@ -98,8 +99,7 @@
       "tags": [
         "Java",
         "Threads",
-        "Multithreading",
-        "Synchronized"
+        "Multithreading"
       ],
       "preview": "./resources/post7/img_7_preview.jpg"
     },
